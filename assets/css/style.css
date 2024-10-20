@@ -1880,3 +1880,67 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+.academic-card {
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 15px;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.duration {
+  font-size: 0.9em;
+  color: var(--light-gray);
+}
+
+.degree {
+  color: var(--light-gray);
+  margin-bottom: 15px;
+}
+
+.achievement-list {
+  list-style: disc;
+  margin-left: 20px;
+  color: var(--light-gray);
+}
+
+.achievement-list li {
+  margin-bottom: 8px;
+}
+
+.courses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  list-style: none;
+}
+
+.courses-list li {
+  background: var(--border-gradient-onyx);
+  padding: 8px 15px;
+  border-radius: 8px;
+  text-align: center;
+  color: var(--light-gray);
+}
+
+.note {
+  margin-top: 15px;
+  font-style: italic;
+  color: var(--light-gray);
+}
+
+.scholarship-details {
+  color: var(--light-gray);
+}
+
+.h4 {
+  color: var(--white-2);
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
